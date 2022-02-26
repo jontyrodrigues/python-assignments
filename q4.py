@@ -42,7 +42,7 @@ def plot(time, position):
     plt.show()
 
 
-# Define the function of lpj 
+# Define the function of ljp potential
 # referenced from https://pythoninchemistry.org/sim_and_scat/molecular_dynamics/intro.html
 # referenced from Martínez, L.; Andrade, R.; Birgin, E. G.; Martínez, J. M. J. Comput. Chem. 2009, 30 (13), 2157–2164. 10.1002/jcc.21224.
 def lj_force(r, epsilon, sigma):
